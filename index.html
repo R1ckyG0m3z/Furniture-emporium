@@ -2,17 +2,22 @@
 <html lang="en">
   <head>
     <title>Furniture Emporium</title>
+    <!--Below is link to index.css-->
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <main>
       <header>
         <h1>Furniture Emporium</h1>
-        <p>
+        <!--Added ID Selector below to Modify paragraph individually-->
+        <p id="p1">
           Browse our collection of bespoke furniture to find the next piece to
           bring home.
         </p>
       </header>
-      <article>
+      <!--Class Selector added to article below-->
+      <div class="cards">
+      <article class="card">
         <h2>Ergonomic Couch</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -20,10 +25,18 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$20.00 <s>$25.00</s></p>
+        <!--Added image link below-->
+        <img src="https://www.theaterseatstore.com/media/catalog/product/cache/642ff8ea9b3baed9a3d76bd3cb909207/t/u/turbo-sofas-dove-31.jpg">
+        <!--Added ID Selector below to modify the price color across page-->
+        <p class="price">$20.00 <s>$25.00</s></p>
         <button>Add to cart</button>
+        </article>
+        </article>
+        </div>
       </article>
-      <article>
+      <!--Class Selector added to article below-->
+      <div class="cards">
+      <article class="card">
         <h2>Frozen Table</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -31,10 +44,17 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$49.95 <s>$60.00</s></p>
+        <!--Added image link below-->
+        <img src="https://www.deltachildren.com/cdn/shop/products/TT89494FZ-frozen-table-n-chair-toykeep-chair-right_a5b1728c-4411-4f28-b4a5-7aad729bd072.jpg?v=1611731468">
+        <!--Added ID Selector below to modify the price color across page-->
+        <p class="price">$49.95 <s>$60.00</s></p>
         <button>Add to cart</button>
+        </div>
+        </article>
       </article>
-      <article>
+      <!--Class Selector added to article below-->
+      <div class="cards">
+      <article class="card">
         <h2>Handcrafted Chair</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -42,8 +62,12 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$18.99 <s>$32.99</s></p>
+        <!--Added image link below-->
+        <img src="https://img.dutchcrafters.com/product-images/pid_58374-Amish-Calvert-Lounge-Chair-30.jpg?q=60&auto=format&auto=compress&fit=max&w=900">
+        <!--Added ID Selector below to modify the price color across page-->
+        <p class="price">$18.99 <s>$32.99</s></p>
         <button>Add to cart</button>
+        </div>
       </article>
     </main>
   </body>
